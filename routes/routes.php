@@ -1,9 +1,7 @@
 <?php
 
 $router->get('/', 'JournalistController@index');
-
 $router->get('/journalist/{id:int}/edit', 'JournalistController@edit');
-
 
 /** API routes */
 $router->post('/search', 'ApiJournalistController@searchById');
