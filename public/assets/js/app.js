@@ -56,6 +56,9 @@ const App = {
     },
 
     addJournalist: function() {
+        if($('#name').val() == '' || $('#alias').val() == '') {
+            return false;
+        }
         let data = {
             name: $('#name').val(),
             alias: $('#alias').val(),
