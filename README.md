@@ -5,6 +5,7 @@
 - composer install
 - create .env from .env.example
 - setup db
+- run SQLs from sql dir
 
 **RUN**
 -
