@@ -1,0 +1,1 @@
+CREATE TABLE `journalist`.`journalist` ( `id` INT UNSIGNED NULL AUTO_INCREMENT , PRIMARY KEY (`id`), `name` VARCHAR(150) NOT NULL , `alias` VARCHAR(150) NOT NULL , `group_id` TINYINT NOT NULL) ENGINE = InnoDB;

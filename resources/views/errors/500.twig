@@ -1,0 +1,45 @@
+{% extends  '@templates/layouts/error.twig' %}
+
+{% block title %}
+    500: Internal Server Error
+{% endblock %}
+
+{% block content %}
+
+
+    <div class="error-content">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 ">
+                    <div class="error-text">
+                        <h1 class="error">500 Error</h1>
+                        <div class="im-sheep">
+                            <div class="top">
+                                <div class="body"></div>
+                                <div class="head">
+                                    <div class="im-eye one"></div>
+                                    <div class="im-eye two"></div>
+                                    <div class="im-ear one"></div>
+                                    <div class="im-ear two"></div>
+                                </div>
+                            </div>
+                            <div class="im-legs">
+                                <div class="im-leg"></div>
+                                <div class="im-leg"></div>
+                                <div class="im-leg"></div>
+                                <div class="im-leg"></div>
+                            </div>
+                        </div>
+                        <h4>Oops! Valami hiba történt az oldal működése közben!</h4>
+                        <a href="/" class="btn btn-primary btn-round">Vissza a kezdő oldalra</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+{% endblock %}
+
+{% block css %}
+    <link rel="stylesheet" href="{{ url }}assets/css/error.css">
+{% endblock %}
