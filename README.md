@@ -4,7 +4,7 @@
 - git clone https://github.com/Flynn13/inda-test.git . 
 - composer install
 - create .env from .env.example
-- setup db
+- set db
 - run SQLs from sql dir (check db name)
 
 **RUN**
